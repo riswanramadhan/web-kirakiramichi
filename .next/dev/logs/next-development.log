@@ -1,9 +1,6 @@
-[00:00:02.251] Server  LOG     ✓ Ready in 1541ms
-[00:00:08.597] Server  LOG     ○ Compiling / ...
-[00:00:22.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.949] Browser WARN    Image with src "/kkmlogo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:54.738] Server  LOG     ✓ Compiled in 1651ms
-[00:02:45.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:46.041] Browser WARN    Image with src "/kkmlogo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:51.534] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:51.972] Browser WARN    Image with src "/kkmlogo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.408] Server  LOG     ✓ Ready in 3.2s
+[00:00:08.815] Server  LOG     ○ Compiling / ...
+[00:00:20.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:25.484] Browser WARN    Image with src "/kkmlogo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:25.484] Browser WARN    Image with src "/kkmhero.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

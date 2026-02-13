@@ -1515,6 +1515,11 @@ img, video {
   color: rgb(237 32 36 / var(--tw-text-opacity, 1));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+}
+
 .text-text-main {
   --tw-text-opacity: 1;
   color: rgb(43 39 40 / var(--tw-text-opacity, 1));
@@ -1532,11 +1537,6 @@ img, video {
 
 .text-white\/90 {
   color: #ffffffe6;
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {

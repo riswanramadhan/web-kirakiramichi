@@ -80,8 +80,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-[#f4f3f1] pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
-          <p className="text-text-muted text-xs">
+        <div className="border-t border-[#f4f3f1] pt-8 flex flex-col md:flex-row justify-center items-center gap-4 text-center">
+          <p className="text-text-muted text-xs text-center">
             &copy;2026 Kira Kira Michi. All rights reserved | Powered by DekatLokal
           </p>
         </div>
