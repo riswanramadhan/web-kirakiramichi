@@ -119,45 +119,135 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ScrollT
 ;
 ;
 const metadata = {
-    title: 'Kira Kira Michi',
-    description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal.',
-    keywords: 'custom merchandise, kkm, dekatlokal, produk kreatif, desain eksklusif',
+    metadataBase: new URL('https://kirakiramichi.com'),
+    title: {
+        default: 'Kira Kira Michi - Custom Merchandise Premium Indonesia | DekatLokal',
+        template: '%s | Kira Kira Michi'
+    },
+    description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal. Custom totebag, t-shirt, hoodie, dan merchandise lainnya dengan kualitas terpercaya.',
+    keywords: [
+        'custom merchandise',
+        'custom merchandise indonesia',
+        'kira kira michi',
+        'kkm',
+        'dekatlokal',
+        'produk kreatif',
+        'desain eksklusif',
+        'custom totebag',
+        'custom t-shirt',
+        'custom hoodie',
+        'merchandise premium',
+        'produk lokal indonesia',
+        'produk custom jakarta',
+        'sablon kaos',
+        'printing custom'
+    ],
     authors: [
         {
-            name: 'Kira Kira Michi'
+            name: 'Kira Kira Michi',
+            url: 'https://kirakiramichi.com'
         }
     ],
+    creator: 'Kira Kira Michi',
+    publisher: 'Kira Kira Michi',
+    formatDetection: {
+        email: false,
+        address: false,
+        telephone: false
+    },
+    openGraph: {
+        type: 'website',
+        locale: 'id_ID',
+        url: 'https://kirakiramichi.com',
+        siteName: 'Kira Kira Michi',
+        title: 'Kira Kira Michi - Custom Merchandise Premium Indonesia',
+        description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal.',
+        images: [
+            {
+                url: '/og-image.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Kira Kira Michi - Custom Merchandise Premium'
+            }
+        ]
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Kira Kira Michi - Custom Merchandise Premium Indonesia',
+        description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif.',
+        images: [
+            '/og-image.jpg'
+        ],
+        creator: '@kirakiramichi'
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1
+        }
+    },
     icons: {
-        icon: '/favicon.ico'
-    }
+        icon: '/favicon.ico',
+        shortcut: '/favicon.ico',
+        apple: '/apple-touch-icon.png'
+    },
+    manifest: '/manifest.json',
+    verification: {
+        google: 'xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo'
+    },
+    alternates: {
+        canonical: 'https://kirakiramichi.com'
+    },
+    category: 'business'
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "id",
         className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$epilogue_bed17730$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} light scroll-smooth`,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-            className: "bg-background-light dark:bg-background-dark text-text-main font-display antialiased selection:bg-primary/30 selection:text-text-main",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ScrollToTop$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
+                    rel: "canonical",
+                    href: "https://kirakiramichi.com"
+                }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 33,
+                    lineNumber: 88,
                     columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$AOSInit$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                    fileName: "[project]/app/layout.tsx",
-                    lineNumber: 34,
-                    columnNumber: 9
-                }, this),
-                children
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/layout.tsx",
-            lineNumber: 32,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/layout.tsx",
+                lineNumber: 87,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
+                className: "bg-background-light dark:bg-background-dark text-text-main font-display antialiased selection:bg-primary/30 selection:text-text-main",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ScrollToTop$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 91,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$AOSInit$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 92,
+                        columnNumber: 9
+                    }, this),
+                    children
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/layout.tsx",
+                lineNumber: 90,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 31,
+        lineNumber: 86,
         columnNumber: 5
     }, this);
 }

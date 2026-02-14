@@ -25,7 +25,7 @@ const CTA = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -skew-x-12 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-in-out"></div>
         
         <div className="relative z-10">
-          <div className="inline-flex items-center justify-center mb-6">
+          <div className="inline-flex items-center justify-center mb-6" data-aos="zoom-in" data-aos-duration="800">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-white animate-pulse"></div>
               <div className="w-8 h-8 rounded-full bg-kkm-yellow animate-bounce"></div>
@@ -33,17 +33,17 @@ const CTA = () => {
             </div>
           </div>
           
-          <h2 className="text-3xl md:text-5xl font-black text-white mb-6 transform group-hover:scale-105 transition-transform duration-300">
+          <h2 className="text-3xl md:text-5xl font-black text-white mb-6 transform group-hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             Temukan Merchandise yang Pas untuk Anda
           </h2>
           
           <div className="mb-10">
-            <p className="text-white/90 text-lg max-w-2xl mx-auto leading-relaxed">
+            <p className="text-white/90 text-lg max-w-2xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
               Dapatkan merchandise favoritmu dengan kualitas premium dan desain eksklusif. Pesanan kustom dan stok tersedia sekarang.
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
             <a 
               href="https://wa.me/6289529974959" 
               target="_blank" 

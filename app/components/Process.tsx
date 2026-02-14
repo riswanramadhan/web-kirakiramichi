@@ -5,14 +5,14 @@ const Process = () => {
     <section className="py-20 bg-white" id="process">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-text-main mb-4">Alur Pemesanan</h2>
-          <p className="text-text-muted max-w-2xl mx-auto">Ikuti langkah-langkah mudah untuk memesan merchandise favorit kamu</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-text-main mb-4" data-aos="fade-up" data-aos-duration="800">Alur Pemesanan</h2>
+          <p className="text-text-muted max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Ikuti langkah-langkah mudah untuk memesan merchandise favorit kamu</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Choose Merchandise */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full bg-kkm-red/10 flex items-center justify-center mb-4">
+          <div className="flex flex-col items-center text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="0">
+            <div className="w-16 h-16 rounded-full bg-kkm-red/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
               <img 
                 src="/process/merchandise.svg"
                 alt="Choose Merchandise Icon"
@@ -24,8 +24,8 @@ const Process = () => {
           </div>
 
           {/* Payment */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full bg-kkm-yellow/10 flex items-center justify-center mb-4">
+          <div className="flex flex-col items-center text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            <div className="w-16 h-16 rounded-full bg-kkm-yellow/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
               <img 
                 src="/process/payment.svg"
                 alt="Payment Icon"
@@ -37,8 +37,8 @@ const Process = () => {
           </div>
 
           {/* Delivery */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mb-4">
+          <div className="flex flex-col items-center text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+            <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="600">
               <img 
                 src="/process/delivery.svg"
                 alt="Delivery Icon"
@@ -50,8 +50,8 @@ const Process = () => {
           </div>
 
           {/* Review */}
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4">
+          <div className="flex flex-col items-center text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
+            <div className="w-16 h-16 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800">
               <img 
                 src="/process/review.svg"
                 alt="Review Icon"

@@ -243,6 +243,9 @@ const Hero = ()=>{
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "relative order-1 lg:order-2 group",
+                    "data-aos": "zoom-in",
+                    "data-aos-duration": "1000",
+                    "data-aos-delay": "300",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute -top-10 -right-10 w-32 h-32 bg-kkm-yellow/20 rounded-full blur-3xl animate-pulse"
@@ -278,6 +281,9 @@ const Hero = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute top-8 -right-4 bg-kkm-yellow text-kkm-dark px-4 py-2 rounded-xl shadow-xl font-black text-xs rotate-12 animate-bounce",
+                            "data-aos": "flip-right",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "500",
                             children: "BURUAN ORDER!"
                         }, void 0, false, {
                             fileName: "[project]/app/components/Hero.tsx",
@@ -322,6 +328,8 @@ const Support = ()=>{
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "text-primary font-bold tracking-widest uppercase text-lg md:text-xl",
+                    "data-aos": "fade-up",
+                    "data-aos-duration": "800",
                     children: "Didukung Oleh Mitra Terpercaya"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Support.tsx",
@@ -330,6 +338,9 @@ const Support = ()=>{
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "mt-8 text-text-muted text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed",
+                    "data-aos": "fade-up",
+                    "data-aos-duration": "800",
+                    "data-aos-delay": "100",
                     children: [
                         "Kira Kira Michi didukung oleh mitra-mitra terpercaya seperti",
                         " ",
@@ -364,6 +375,9 @@ const Support = ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center justify-center w-48 h-24",
+                            "data-aos": "flip-down",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "200",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: "/dekat-lokal.png",
                                 alt: "DekatLokal",
@@ -380,6 +394,9 @@ const Support = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center justify-center w-48 h-24",
+                            "data-aos": "flip-down",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "400",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: "/rumah-bumn.png",
                                 alt: "Rumah BUMN",
@@ -396,6 +413,9 @@ const Support = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center justify-center w-48 h-24",
+                            "data-aos": "flip-down",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "600",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: "/bank-bri.png",
                                 alt: "Bank BRI",
@@ -449,9 +469,15 @@ const Features = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col items-center text-center p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300",
+                        "data-aos": "fade-up",
+                        "data-aos-duration": "800",
+                        "data-aos-delay": "0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4",
+                                className: "w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300",
+                                "data-aos": "zoom-in",
+                                "data-aos-duration": "600",
+                                "data-aos-delay": "100",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                     xmlns: "http://www.w3.org/2000/svg",
                                     viewBox: "0 0 24 24",
@@ -519,9 +545,15 @@ const Features = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col items-center text-center p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300",
+                        "data-aos": "fade-up",
+                        "data-aos-duration": "800",
+                        "data-aos-delay": "200",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4",
+                                className: "w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300",
+                                "data-aos": "zoom-in",
+                                "data-aos-duration": "600",
+                                "data-aos-delay": "300",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                     xmlns: "http://www.w3.org/2000/svg",
                                     viewBox: "0 0 16 16",
@@ -594,9 +626,15 @@ const Features = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col items-center text-center p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300",
+                        "data-aos": "fade-up",
+                        "data-aos-duration": "800",
+                        "data-aos-delay": "400",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4",
+                                className: "w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300",
+                                "data-aos": "zoom-in",
+                                "data-aos-duration": "600",
+                                "data-aos-delay": "500",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                     xmlns: "http://www.w3.org/2000/svg",
                                     viewBox: "0 0 24 24",
@@ -689,9 +727,14 @@ const Story = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex-1 flex flex-col gap-6",
+                        "data-aos": "slide-right",
+                        "data-aos-duration": "1000",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-kkm-yellow font-bold tracking-widest uppercase text-xs",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "100",
                                 children: "Cerita Kami"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Story.tsx",
@@ -700,6 +743,9 @@ const Story = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-4xl font-black text-text-main leading-tight",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "200",
                                 children: "Lebih dari sekadar produk, ini adalah hasil dari proses kreatif dan cerita di baliknya."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Story.tsx",
@@ -708,7 +754,10 @@ const Story = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-text-muted text-base leading-relaxed",
-                                children: "“Kira Kira Michi” dibentuk pada tahun 2023. Bermula dari keinginan sepasang suami istri tanpa pekerjaan tetap yang baru saja memulai kehidupan berumah tangga, bersama bayi mereka yang baru lahir. Berangkat dari hobi desain, menggambar, serta keinginan untuk memberikan pengalaman agar setiap orang dapat memiliki merchandise impian yang selama ini mereka idamkan."
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "300",
+                                children: '"Kira Kira Michi" dibentuk pada tahun 2023. Bermula dari keinginan sepasang suami istri tanpa pekerjaan tetap yang baru saja memulai kehidupan berumah tangga, bersama bayi mereka yang baru lahir. Berangkat dari hobi desain, menggambar, serta keinginan untuk memberikan pengalaman agar setiap orang dapat memiliki merchandise impian yang selama ini mereka idamkan.'
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Story.tsx",
                                 lineNumber: 15,
@@ -716,6 +765,9 @@ const Story = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-text-muted text-base leading-relaxed",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "400",
                                 children: "Produksi produk kami bermula dari ide desain yang kemudian diolah secara digital melalui proses desain grafis hingga menjadi file yang dapat diproses oleh mesin-mesin produksi kami. Setelah produk dasar selesai, produk tersebut diberikan aksesoris sesuai dengan tema, lalu dikemas menjadi produk yang siap untuk dijual."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Story.tsx",
@@ -730,11 +782,16 @@ const Story = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex-1 w-full",
+                        "data-aos": "slide-left",
+                        "data-aos-duration": "1000",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-2 gap-4 items-start",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mt-8 relative",
+                                    "data-aos": "zoom-in",
+                                    "data-aos-duration": "1000",
+                                    "data-aos-delay": "200",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-kkm-yellow/20 blur-xl rounded-full -z-10"
@@ -769,6 +826,9 @@ const Story = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative",
+                                    "data-aos": "zoom-in",
+                                    "data-aos-duration": "1000",
+                                    "data-aos-delay": "400",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-kkm-yellow/20 blur-xl rounded-full -z-10"
@@ -997,6 +1057,8 @@ const Reviews = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "inline-flex items-center gap-2 mb-4",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "w-3 h-3 rounded-full bg-kkm-red"
@@ -1027,6 +1089,9 @@ const Reviews = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-4xl font-black text-text-main mb-4 relative",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "100",
                                 children: [
                                     "Testimoni Pelanggan",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1044,6 +1109,9 @@ const Reviews = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-text-muted max-w-2xl mx-auto",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "200",
                                 children: "Jangan hanya percaya kata-kata kami. Inilah yang dikatakan pelanggan setia kami."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Reviews.tsx",
@@ -1061,6 +1129,9 @@ const Reviews = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group",
+                                "data-aos": "zoom-in",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "300",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -top-5 left-8 bg-kkm-red p-3 rounded-xl shadow-lg shadow-kkm-red/20 group-hover:scale-110 transition-transform duration-300",
@@ -1145,6 +1216,9 @@ const Reviews = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group",
+                                "data-aos": "zoom-in",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "400",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -top-5 left-8 bg-kkm-red p-3 rounded-xl shadow-lg shadow-kkm-red/20 group-hover:scale-110 transition-transform duration-300",
@@ -1229,6 +1303,9 @@ const Reviews = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group",
+                                "data-aos": "zoom-in",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "500",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -top-5 left-8 bg-kkm-red p-3 rounded-xl shadow-lg shadow-kkm-red/20 group-hover:scale-110 transition-transform duration-300",
@@ -1351,9 +1428,14 @@ const FAQ = ()=>{
                 className: "flex flex-col gap-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        "data-aos": "fade-up",
+                        "data-aos-duration": "800",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-primary font-bold tracking-widest uppercase text-xs",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "100",
                                 children: "Bantuan"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FAQ.tsx",
@@ -1362,6 +1444,9 @@ const FAQ = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl font-black text-text-main mt-2",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "200",
                                 children: "Pusat Bantuan"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FAQ.tsx",
@@ -1379,6 +1464,9 @@ const FAQ = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
                                 className: "group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "300",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                         className: "flex cursor-pointer items-center justify-between gap-1.5 font-bold text-text-main",
@@ -1662,6 +1750,9 @@ const FAQ = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
                                 className: "group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "400",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                         className: "flex cursor-pointer items-center justify-between gap-1.5 font-bold text-text-main",
@@ -1784,6 +1875,9 @@ const FAQ = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
                                 className: "group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "500",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                         className: "flex cursor-pointer items-center justify-between gap-1.5 font-bold text-text-main",
@@ -2087,6 +2181,8 @@ const Process = ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-4xl font-bold text-text-main mb-4",
+                            "data-aos": "fade-up",
+                            "data-aos-duration": "800",
                             children: "Alur Pemesanan"
                         }, void 0, false, {
                             fileName: "[project]/app/components/Process.tsx",
@@ -2095,6 +2191,9 @@ const Process = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-text-muted max-w-2xl mx-auto",
+                            "data-aos": "fade-up",
+                            "data-aos-duration": "800",
+                            "data-aos-delay": "100",
                             children: "Ikuti langkah-langkah mudah untuk memesan merchandise favorit kamu"
                         }, void 0, false, {
                             fileName: "[project]/app/components/Process.tsx",
@@ -2112,9 +2211,15 @@ const Process = ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col items-center text-center",
+                            "data-aos": "fade-left",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "0",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-16 h-16 rounded-full bg-kkm-red/10 flex items-center justify-center mb-4",
+                                    className: "w-16 h-16 rounded-full bg-kkm-red/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300",
+                                    "data-aos": "zoom-in",
+                                    "data-aos-duration": "800",
+                                    "data-aos-delay": "200",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/process/merchandise.svg",
                                         alt: "Choose Merchandise Icon",
@@ -2153,9 +2258,15 @@ const Process = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col items-center text-center",
+                            "data-aos": "fade-right",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "200",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-16 h-16 rounded-full bg-kkm-yellow/10 flex items-center justify-center mb-4",
+                                    className: "w-16 h-16 rounded-full bg-kkm-yellow/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300",
+                                    "data-aos": "zoom-in",
+                                    "data-aos-duration": "800",
+                                    "data-aos-delay": "400",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/process/payment.svg",
                                         alt: "Payment Icon",
@@ -2194,9 +2305,15 @@ const Process = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col items-center text-center",
+                            "data-aos": "fade-left",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "400",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mb-4",
+                                    className: "w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300",
+                                    "data-aos": "zoom-in",
+                                    "data-aos-duration": "800",
+                                    "data-aos-delay": "600",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/process/delivery.svg",
                                         alt: "Delivery Icon",
@@ -2235,9 +2352,15 @@ const Process = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col items-center text-center",
+                            "data-aos": "fade-right",
+                            "data-aos-duration": "1000",
+                            "data-aos-delay": "600",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-16 h-16 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4",
+                                    className: "w-16 h-16 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300",
+                                    "data-aos": "zoom-in",
+                                    "data-aos-duration": "800",
+                                    "data-aos-delay": "800",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/process/review.svg",
                                         alt: "Review Icon",
@@ -2402,6 +2525,8 @@ const CTA = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "inline-flex items-center justify-center mb-6",
+                                "data-aos": "zoom-in",
+                                "data-aos-duration": "800",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center gap-2",
                                     children: [
@@ -2439,6 +2564,9 @@ const CTA = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-5xl font-black text-white mb-6 transform group-hover:scale-105 transition-transform duration-300",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "100",
                                 children: "Temukan Merchandise yang Pas untuk Anda"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/CTA.tsx",
@@ -2449,6 +2577,9 @@ const CTA = ()=>{
                                 className: "mb-10",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-white/90 text-lg max-w-2xl mx-auto leading-relaxed",
+                                    "data-aos": "fade-up",
+                                    "data-aos-duration": "800",
+                                    "data-aos-delay": "200",
                                     children: "Dapatkan merchandise favoritmu dengan kualitas premium dan desain eksklusif. Pesanan kustom dan stok tersedia sekarang."
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/CTA.tsx",
@@ -2462,6 +2593,9 @@ const CTA = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col sm:flex-row items-center justify-center gap-6",
+                                "data-aos": "fade-up",
+                                "data-aos-duration": "800",
+                                "data-aos-delay": "300",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "https://wa.me/6289529974959",
@@ -3041,70 +3175,180 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$
 ;
 ;
 function Home() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative flex flex-col min-h-screen w-full overflow-x-hidden",
+    // JSON-LD Structured Data for SEO
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        name: 'Kira Kira Michi',
+        image: 'https://kirakiramichi.com/og-image.jpg',
+        '@id': 'https://kirakiramichi.com',
+        url: 'https://kirakiramichi.com',
+        telephone: '',
+        priceRange: '$$',
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: '',
+            addressLocality: 'Jakarta',
+            addressRegion: 'DKI Jakarta',
+            postalCode: '',
+            addressCountry: 'ID'
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: -6.2088,
+            longitude: 106.8456
+        },
+        openingHoursSpecification: {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday',
+                'Sunday'
+            ],
+            opens: '09:00',
+            closes: '21:00'
+        },
+        sameAs: [
+            'https://instagram.com/kirakiramichi',
+            'https://facebook.com/kirakiramichi',
+            'https://twitter.com/kirakiramichi'
+        ],
+        description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal.'
+    };
+    const organizationJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Kira Kira Michi',
+        alternateName: 'KKM',
+        url: 'https://kirakiramichi.com',
+        logo: 'https://kirakiramichi.com/logo.png',
+        contactPoint: {
+            '@type': 'ContactPoint',
+            contactType: 'customer service',
+            availableLanguage: [
+                'Indonesian',
+                'English'
+            ]
+        },
+        sameAs: [
+            'https://instagram.com/kirakiramichi',
+            'https://facebook.com/kirakiramichi',
+            'https://twitter.com/kirakiramichi'
+        ]
+    };
+    const websiteJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Kira Kira Michi',
+        url: 'https://kirakiramichi.com',
+        potentialAction: {
+            '@type': 'SearchAction',
+            target: 'https://kirakiramichi.com/search?q={search_term_string}',
+            'query-input': 'required name=search_term_string'
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(jsonLd)
+                }
+            }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 16,
+                lineNumber: 93,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(organizationJsonLd)
+                }
+            }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 17,
+                lineNumber: 97,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Support$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(websiteJsonLd)
+                }
+            }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 18,
+                lineNumber: 101,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Features$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative flex flex-col min-h-screen w-full overflow-x-hidden",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 107,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Support$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 109,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Features$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 110,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Story$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Menu$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 112,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Reviews$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$FAQ$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 114,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Process$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 115,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$CTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 116,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/app/page.tsx",
+                        lineNumber: 117,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 19,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Story$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 20,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Menu$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 21,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Reviews$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 22,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$FAQ$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 23,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Process$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 24,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$CTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 25,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 26,
+                lineNumber: 106,
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "[project]/app/page.tsx",
-        lineNumber: 15,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
 }),
 "[project]/app/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {

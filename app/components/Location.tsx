@@ -3,12 +3,12 @@ const Location = () => {
     <section className="py-20 bg-white" id="location">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6">
-          <div>
-            <span className="text-primary font-bold tracking-widest uppercase text-xs">Lokasi</span>
-            <h2 className="text-3xl font-black text-text-main mt-2">Lokasi Kami</h2>
+          <div data-aos="fade-up" data-aos-duration="800">
+            <span className="text-primary font-bold tracking-widest uppercase text-xs" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Lokasi</span>
+            <h2 className="text-3xl font-black text-text-main mt-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Lokasi Kami</h2>
           </div>
           <div className="space-y-4">
-            <div className="bg-gray-100 rounded-lg p-6">
+            <div className="bg-gray-100 rounded-lg p-6" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
               <h3 className="text-xl font-semibold mb-2">Alamat Tempat Usaha</h3>
               <p className="text-text-muted mb-4">Jl. Contoh Alamat No. 123, Kota, Provinsi 12345</p>
               <div className="aspect-w-16 aspect-h-9">

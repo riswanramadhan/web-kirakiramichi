@@ -3,12 +3,12 @@ const FAQ = () => {
     <section className="py-20 bg-white" id="faq">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6">
-          <div>
-            <span className="text-primary font-bold tracking-widest uppercase text-xs">Bantuan</span>
-            <h2 className="text-3xl font-black text-text-main mt-2">Pusat Bantuan</h2>
+          <div data-aos="fade-up" data-aos-duration="800">
+            <span className="text-primary font-bold tracking-widest uppercase text-xs" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Bantuan</span>
+            <h2 className="text-3xl font-black text-text-main mt-2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Pusat Bantuan</h2>
           </div>
           <div className="space-y-4">
-            <details className="group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all">
+            <details className="group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 font-bold text-text-main">
                 <h3 className="text-base">1. Produk apa saja yang bisa di-custom di Kira Kira Michi kak?</h3>
                 <svg 
@@ -58,7 +58,7 @@ const FAQ = () => {
               </div>
             </details>
             
-            <details className="group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all">
+            <details className="group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 font-bold text-text-main">
                 <h3 className="text-base">2. Bahan-bahan apa saja yang bisa di-custom oleh Kira Kira Michi kak?</h3>
                 <svg 
@@ -85,7 +85,7 @@ const FAQ = () => {
               </div>
             </details>
             
-            <details className="group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all">
+            <details className="group bg-[#fbfaf9] p-4 rounded-xl [&_summary::-webkit-details-marker]:hidden open:bg-white open:shadow-sm open:border open:border-[#f4f3f1] transition-all" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 font-bold text-text-main">
                 <h3 className="text-base">3. Berapa Jumlah Minimum (MOQ) untuk memesan produk custom kak?</h3>
                 <svg 

@@ -61,7 +61,7 @@ const Hero = () => {
         </div>
 
         {/* RIGHT IMAGE (Custom Merch Showcase) */}
-        <div className="relative order-1 lg:order-2 group">
+        <div className="relative order-1 lg:order-2 group" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
           {/* Decorative Elements dari Logo */}
           <div className="absolute -top-10 -right-10 w-32 h-32 bg-kkm-yellow/20 rounded-full blur-3xl animate-pulse" />
           <div className="absolute inset-0 bg-kkm-dark rounded-[3rem] rotate-3 transform transition-transform group-hover:rotate-6" />
@@ -77,7 +77,7 @@ const Hero = () => {
           </div>
 
           {/* Floating Badge */}
-          <div className="absolute top-8 -right-4 bg-kkm-yellow text-kkm-dark px-4 py-2 rounded-xl shadow-xl font-black text-xs rotate-12 animate-bounce">
+          <div className="absolute top-8 -right-4 bg-kkm-yellow text-kkm-dark px-4 py-2 rounded-xl shadow-xl font-black text-xs rotate-12 animate-bounce" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500">
             BURUAN ORDER!
           </div>
         </div>

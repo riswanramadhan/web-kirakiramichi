@@ -29,9 +29,9 @@ const Menu = () => {
         
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
-          <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-4xl font-black text-text-main mb-4">Produk Kami</h2>
-            <p className="text-text-muted">Koleksi merchandise berkualitas tinggi, dari custom hingga best seller.</p>
+          <div className="max-w-2xl" data-aos="fade-up" data-aos-duration="800">
+            <h2 className="text-3xl md:text-4xl font-black text-text-main mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Produk Kami</h2>
+            <p className="text-text-muted" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Koleksi merchandise berkualitas tinggi, dari custom hingga best seller.</p>
           </div>
           
           {/* Link Desktop dengan efek teks geser ke KIRI */}
@@ -187,8 +187,8 @@ const Menu = () => {
         </div>
         
         {/* Top Picks Section */}
-        <div className="mb-16">
-          <div className="flex items-center gap-3 mb-8">
+        <div className="mb-16" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+          <div className="flex items-center gap-3 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="700">
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-kkm-dark to-kkm-red flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
                 <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
@@ -348,8 +348,8 @@ const Menu = () => {
         </div>
 
         {/* Back by Popular Demand Section */}
-        <div>
-          <div className="flex items-center gap-3 mb-8">
+        <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+          <div className="flex items-center gap-3 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-kkm-red to-kkm-dark flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>

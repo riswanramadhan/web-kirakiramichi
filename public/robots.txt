@@ -1,0 +1,26 @@
+# robots.txt for Kira Kira Michi
+# https://kirakiramichi.com/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://kirakiramichi.com/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 0
+
+# Google Bot specific rules
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Disallow: /api/

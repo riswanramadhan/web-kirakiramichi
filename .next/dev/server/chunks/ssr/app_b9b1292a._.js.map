@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/Sekolah%20%28STELK%29/Kelas%20XII/PKL/kirakiramichi/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 2380, height: 2380 }\n"],"names":[],"mappings":";;;;AAAA;;uCACe;IAAE,KAAA,mIAAG;IAAE,OAAO;IAAM,QAAQ;AAAK"}}]
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/templaterb2/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":[],"mappings":";;;;AAAA;;uCACe;IAAE,KAAA,mIAAG;IAAE,OAAO;IAAI,QAAQ;AAAG"}}]
 }

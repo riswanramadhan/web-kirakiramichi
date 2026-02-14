@@ -47,22 +47,22 @@ const Reviews = () => {
       <div className="absolute top-1/3 right-20 w-16 h-16 rounded-full bg-kkm-dark/5 blur-lg"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 relative z-10">
-          <div className="inline-flex items-center gap-2 mb-4">
+          <div className="inline-flex items-center gap-2 mb-4" data-aos="fade-up" data-aos-duration="800">
             <div className="w-3 h-3 rounded-full bg-kkm-red"></div>
             <div className="w-6 h-6 rounded-full bg-kkm-yellow"></div>
             <div className="w-3 h-3 rounded-full bg-kkm-dark"></div>
           </div>
-          <h2 className="text-3xl md:text-4xl font-black text-text-main mb-4 relative">
+          <h2 className="text-3xl md:text-4xl font-black text-text-main mb-4 relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             Testimoni Pelanggan
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-kkm-red to-kkm-yellow rounded-full"></div>
           </h2>
-          <p className="text-text-muted max-w-2xl mx-auto">Jangan hanya percaya kata-kata kami. Inilah yang dikatakan pelanggan setia kami.</p>
+          <p className="text-text-muted max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Jangan hanya percaya kata-kata kami. Inilah yang dikatakan pelanggan setia kami.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           
           {/* Review 1 */}
-          <div className="bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+          <div className="bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
             <div className="absolute -top-5 left-8 bg-kkm-red p-3 rounded-xl shadow-lg shadow-kkm-red/20 group-hover:scale-110 transition-transform duration-300">
               <QuoteIcon />
             </div>
@@ -84,7 +84,7 @@ const Reviews = () => {
           </div>
 
           {/* Review 2 */}
-          <div className="bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+          <div className="bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
             <div className="absolute -top-5 left-8 bg-kkm-red p-3 rounded-xl shadow-lg shadow-kkm-red/20 group-hover:scale-110 transition-transform duration-300">
               <QuoteIcon />
             </div>
@@ -106,7 +106,7 @@ const Reviews = () => {
           </div>
 
           {/* Review 3 */}
-          <div className="bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+          <div className="bg-white p-8 rounded-2xl shadow-sm relative border border-[#f4f3f1] flex flex-col h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500">
             <div className="absolute -top-5 left-8 bg-kkm-red p-3 rounded-xl shadow-lg shadow-kkm-red/20 group-hover:scale-110 transition-transform duration-300">
               <QuoteIcon />
             </div>
