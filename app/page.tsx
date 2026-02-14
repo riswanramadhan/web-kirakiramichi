@@ -9,7 +9,7 @@ import FAQ from './components/FAQ';
 import Process from './components/Process';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-
+<meta name="google-site-verification" content="xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo" />
 export default function Home() {
   // JSON-LD Structured Data for SEO
   const jsonLd = {
