@@ -1,12 +1,12 @@
 # robots.txt for Kira Kira Michi
-# https://kirakiramichi.com/robots.txt
+# https://kirakiramichi.dekatlokal.com/robots.txt
 
 User-agent: *
 Allow: /
 Disallow: /api/
 
 # Sitemap location
-Sitemap: https://kirakiramichi.com/sitemap.xml
+Sitemap: https://kirakiramichi.dekatlokal.com/sitemap.xml
 
 # Crawl-delay for all bots
 Crawl-delay: 0

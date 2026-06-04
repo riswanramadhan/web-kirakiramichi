@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://kirakiramichi.com'
+  const baseUrl = 'https://kirakiramichi.dekatlokal.com'
   
   return [
     {

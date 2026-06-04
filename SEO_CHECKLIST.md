@@ -28,7 +28,7 @@
 ### 4. Sitemap XML ✓
 **File: `app/sitemap.ts`**
 - Sitemap dinamis menggunakan Next.js
-- Accessible di: `https://kirakiramichi.com/sitemap.xml`
+- Accessible di: `https://kirakiramichi.dekatlokal.com/sitemap.xml`
 - Update otomatis dengan `lastModified`
 - Priority dan changeFrequency sudah diset
 
@@ -142,7 +142,7 @@ Buat blog section untuk:
 ### E. Analytics & Monitoring
 
 #### 1. Google Search Console
-- Submit sitemap: `https://kirakiramichi.com/sitemap.xml`
+- Submit sitemap: `https://kirakiramichi.dekatlokal.com/sitemap.xml`
 - Monitor crawl errors
 - Check search performance
 - Review indexing status
@@ -303,7 +303,7 @@ Install tracking code di `app/layout.tsx`:
 
 ### Update Domain di File Config
 
-**PENTING:** Ganti `kirakiramichi.com` dengan domain asli Anda di:
+**PENTING:** Gunakan `https://kirakiramichi.dekatlokal.com` sebagai domain resmi di:
 - `app/layout.tsx` (line 14)
 - `app/sitemap.ts` (line 4)
 - `app/page.tsx` (structured data URLs)

@@ -9,16 +9,20 @@ import FAQ from './components/FAQ';
 import Process from './components/Process';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-<meta name="google-site-verification" content="xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo" />
+
+const siteUrl = 'https://kirakiramichi.dekatlokal.com';
+const ogImageUrl = `${siteUrl}/kkmhero.jpg`;
+const logoUrl = `${siteUrl}/kkmlogo.png`;
+
 export default function Home() {
   // JSON-LD Structured Data for SEO
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Kira Kira Michi',
-    image: 'https://kirakiramichi.com/og-image.jpg',
-    '@id': 'https://kirakiramichi.com',
-    url: 'https://kirakiramichi.com',
+    image: ogImageUrl,
+    '@id': siteUrl,
+    url: siteUrl,
     telephone: '',
     priceRange: '$$',
     address: {
@@ -61,8 +65,8 @@ export default function Home() {
     '@type': 'Organization',
     name: 'Kira Kira Michi',
     alternateName: 'KKM',
-    url: 'https://kirakiramichi.com',
-    logo: 'https://kirakiramichi.com/logo.png',
+    url: siteUrl,
+    logo: logoUrl,
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
@@ -79,10 +83,10 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Kira Kira Michi',
-    url: 'https://kirakiramichi.com',
+    url: siteUrl,
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://kirakiramichi.com/search?q={search_term_string}',
+      target: `${siteUrl}/search?q={search_term_string}`,
       'query-input': 'required name=search_term_string'
     }
   };

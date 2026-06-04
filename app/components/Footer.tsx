@@ -82,7 +82,15 @@ const Footer = () => {
 
         <div className="border-t border-[#f4f3f1] pt-8 flex flex-col md:flex-row justify-center items-center gap-4 text-center">
           <p className="text-text-muted text-xs text-center">
-            &copy;2026 Kira Kira Michi. All rights reserved | Powered by DekatLokal
+            &copy;2026 Kira Kira Michi. All rights reserved | Powered by{' '}
+            <a
+              href="https://dekatlokal.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-kkm-red hover:text-text-main transition-colors"
+            >
+              DekatLokal
+            </a>
           </p>
         </div>
       </div>

@@ -10,17 +10,20 @@ const epilogue = Epilogue({
   variable: '--font-epilogue',
   display: 'swap',
 });
-<meta name="google-site-verification" content="xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo" />
+
+const siteUrl = 'https://kirakiramichi.dekatlokal.com';
+const ogImagePath = '/kkmhero.jpg';
+
 // Load Material Symbols font
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kirakiramichi.vercel.app'),
+  metadataBase: new URL(siteUrl),
   title: {
-    default: 'Kira Kira Michi - Custom Merchandise Premium Indonesia | DekatLokal',
+    default: 'Kira Kira Michi - Custom Merchandise Premium Indonesia',
     template: '%s | Kira Kira Michi'
   },
   description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal. Custom totebag, t-shirt, hoodie, dan merchandise lainnya dengan kualitas terpercaya.',
   keywords: ['custom merchandise', 'custom merchandise indonesia', 'kira kira michi', 'kkm', 'dekatlokal', 'produk kreatif', 'desain eksklusif', 'custom totebag', 'custom t-shirt', 'custom hoodie', 'merchandise premium', 'produk lokal indonesia', 'produk custom jakarta', 'sablon kaos', 'printing custom'],
-  authors: [{ name: 'Kira Kira Michi', url: 'https://kirakiramichi.vercel.app' }],
+  authors: [{ name: 'Kira Kira Michi', url: siteUrl }],
   creator: 'Kira Kira Michi',
   publisher: 'Kira Kira Michi',
   formatDetection: {
@@ -31,13 +34,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'id_ID',
-    url: 'https://kirakiramichi.vercel.app',
+    url: siteUrl,
     siteName: 'Kira Kira Michi',
     title: 'Kira Kira Michi - Custom Merchandise Premium Indonesia',
     description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: ogImagePath,
         width: 1200,
         height: 630,
         alt: 'Kira Kira Michi - Custom Merchandise Premium',
@@ -48,7 +51,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Kira Kira Michi - Custom Merchandise Premium Indonesia',
     description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif.',
-    images: ['/og-image.jpg'],
+    images: [ogImagePath],
     creator: '@kirakiramichi',
   },
   robots: {
@@ -65,16 +68,16 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
+    apple: '/favicon.ico',
   },
   manifest: '/manifest.json',
   verification: {
-    google: 'google443920c31d10f7d5.html',
+    google: 'xMYzBHOvyktvEQhprsMYHl38Ea3GPcIkShFYaXj3RKo',
   },
 
   
   alternates: {
-    canonical: 'https://kirakiramichi.vercel.app',
+    canonical: siteUrl,
   },
   category: 'business',
 };
@@ -86,9 +89,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id" className={`${epilogue.variable} light scroll-smooth`}>
-      <head>
-        <link rel="canonical" href="https://kirakiramichi.vercel.app" />
-      </head>
       <body className="bg-background-light dark:bg-background-dark text-text-main font-display antialiased selection:bg-primary/30 selection:text-text-main">
         <ScrollToTop />
         <AOSInit />
