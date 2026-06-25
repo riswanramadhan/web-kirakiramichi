@@ -1,3 +1,6 @@
+const whatsappHref =
+  'https://wa.me/6289529974959?text=Halo%20Kak%2C%20saya%20dapat%20info%20dari%20website%20DekatLokal%20Kira%20Kira%20Michi.%20Saya%20ingin%20konsultasi%20custom%20merchandise%20sesuai%20desain%20saya.';
+
 const CTA = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 relative" id="cta">
@@ -45,8 +48,9 @@ const CTA = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
             <a 
-              href="https://wa.me/6289529974959" 
+              href={whatsappHref}
               target="_blank" 
+              rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-kkm-red text-white font-bold rounded-xl shadow-lg hover:bg-kkm-red/90 hover:scale-110 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 group/btn"
             >
               <span>Pesan Sekarang</span>

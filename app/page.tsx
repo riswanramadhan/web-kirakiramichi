@@ -9,102 +9,14 @@ import FAQ from './components/FAQ';
 import Process from './components/Process';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
-
-const siteUrl = 'https://kirakiramichi.dekatlokal.com';
-const ogImageUrl = `${siteUrl}/kkmhero.jpg`;
-const logoUrl = `${siteUrl}/kkmlogo.png`;
+import { structuredData } from './seo-data';
 
 export default function Home() {
-  // JSON-LD Structured Data for SEO
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: 'Kira Kira Michi',
-    image: ogImageUrl,
-    '@id': siteUrl,
-    url: siteUrl,
-    telephone: '',
-    priceRange: '$$',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '',
-      addressLocality: 'Jakarta',
-      addressRegion: 'DKI Jakarta',
-      postalCode: '',
-      addressCountry: 'ID'
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: -6.2088,
-      longitude: 106.8456
-    },
-    openingHoursSpecification: {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: [
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday',
-        'Sunday'
-      ],
-      opens: '09:00',
-      closes: '21:00'
-    },
-    sameAs: [
-      'https://instagram.com/kirakiramichi',
-      'https://facebook.com/kirakiramichi',
-      'https://twitter.com/kirakiramichi'
-    ],
-    description: 'Tempat terbaik untuk custom merchandise favoritmu, dengan kualitas premium dan desain eksklusif. Didukung oleh DekatLokal.'
-  };
-
-  const organizationJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Kira Kira Michi',
-    alternateName: 'KKM',
-    url: siteUrl,
-    logo: logoUrl,
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'customer service',
-      availableLanguage: ['Indonesian', 'English']
-    },
-    sameAs: [
-      'https://instagram.com/kirakiramichi',
-      'https://facebook.com/kirakiramichi',
-      'https://twitter.com/kirakiramichi'
-    ]
-  };
-
-  const websiteJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'Kira Kira Michi',
-    url: siteUrl,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${siteUrl}/search?q={search_term_string}`,
-      'query-input': 'required name=search_term_string'
-    }
-  };
-
   return (
     <>
-      {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       
       <div className="relative flex flex-col min-h-screen w-full overflow-x-hidden">

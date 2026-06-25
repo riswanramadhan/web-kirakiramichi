@@ -39,13 +39,14 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20 md:h-24">
           
           {/* LEFT: LOGO ONLY - Remove Brand Name to Reduce Clutter */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center gap-3 group" aria-label="Beranda Kira Kira Michi">
             <div className="relative w-12 h-12 md:w-16 md:h-16 flex-shrink-0">
               {/* Gunakan file logo KKM Logo_081910.png yang kamu punya */}
               <Image 
                 src="/kkmlogo.png" 
-                alt="Kira Kira Michi Logo"
+                alt="Logo Kira Kira Michi custom merchandise"
                 fill
+                sizes="(max-width: 768px) 48px, 64px"
                 className="object-contain group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -113,6 +114,8 @@ const Navbar = () => {
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="ml-4 p-2 text-kkm-dark lg:hidden"
+              aria-label={isMobileMenuOpen ? 'Tutup menu navigasi' : 'Buka menu navigasi'}
+              aria-expanded={isMobileMenuOpen}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 {isMobileMenuOpen ? (

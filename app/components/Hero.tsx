@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -69,8 +68,10 @@ const Hero = () => {
           <div className="relative h-[400px] lg:h-[500px] w-full rounded-[3rem] shadow-2xl overflow-hidden bg-white border-4 border-kkm-dark">
             <Image 
               src="/kkmhero.jpg" 
-              alt="Kira Kira Michi Hero Image" 
+              alt="Kira Kira Michi custom merchandise dan pre-order produk kreatif premium"
               fill
+              priority
+              quality={80}
               className="object-cover"
               sizes="(max-width: 1200px) 100vw, 50vw"
             />

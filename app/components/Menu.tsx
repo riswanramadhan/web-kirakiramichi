@@ -1,11 +1,15 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { useState } from 'react';
 
 const Menu = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<{ src: string; alt: string } | null>(null);
+
+  const whatsappHref = (productName: string) =>
+    `https://wa.me/6289529974959?text=${encodeURIComponent(
+      `Halo Kak, saya dapat info dari website DekatLokal Kira Kira Michi. Saya ingin pesan ${productName}.`
+    )}`;
   
   // Komponen SVG Arrow yang tetap diam (stay)
   const ArrowIcon = () => (
@@ -77,12 +81,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/preorder/kayu.png", alt: "Custom Produk Kayu"})}
+                  onClick={() => setSelectedImage({src: "/preorder/kayu.png", alt: "Custom Produk Kayu Kira Kira Michi"})}
                 >
                   <Image 
                     src="/preorder/kayu.png"
-                    alt="Custom Produk Kayu"
+                    alt="Custom Produk Kayu Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -95,8 +100,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Desain custom untuk produk kayu seperti gantungan kunci, pajangan, dan aksesori lainnya.</p>
                 <a 
-  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Custom%20Produk%20Kayu"
+  href={whatsappHref('Custom Produk Kayu')}
   target="_blank"
+  rel="noopener noreferrer"
   className="w-full py-2.5 rounded-xl bg-kkm-red text-white font-bold hover:bg-kkm-dark transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
 >
   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -117,12 +123,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/preorder/kain.png", alt: "Custom Produk Kain, Kulit Sintetis & Eva Sponge"})}
+                  onClick={() => setSelectedImage({src: "/preorder/kain.png", alt: "Custom Produk Kain Kulit Sintetis dan Eva Sponge Kira Kira Michi"})}
                 >
                   <Image 
                     src="/preorder/kain.png"
-                    alt="Custom Produk Kain, Kulit Sintetis & Eva Sponge"
+                    alt="Custom Produk Kain Kulit Sintetis dan Eva Sponge Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -135,8 +142,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Produk custom dari bahan kain, kulit sintetis, dan eva sponge seperti pouch, ID card, dan lainnya.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Custom%20Produk%20Kain%2C%20Kulit%20Sintetis%20%26%20Eva%20Sponge" 
-                  target="_blank" 
+                  href={whatsappHref('Custom Produk Kain, Kulit Sintetis & Eva Sponge')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-kkm-red text-white font-bold hover:bg-kkm-dark transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -156,12 +164,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/preorder/akrilik.png", alt: "Custom Produk Akrilik"})}
+                  onClick={() => setSelectedImage({src: "/preorder/akrilik.png", alt: "Custom Produk Akrilik Kira Kira Michi"})}
                 >
                   <Image 
                     src="/preorder/akrilik.png"
-                    alt="Custom Produk Akrilik"
+                    alt="Custom Produk Akrilik Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -174,8 +183,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Aneka produk custom dari akrilik seperti pin, gantungan kunci, dan lainnya.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Custom%20Produk%20Akrilik" 
-                  target="_blank" 
+                  href={whatsappHref('Custom Produk Akrilik')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-kkm-red text-white font-bold hover:bg-kkm-dark transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -209,12 +219,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_shaker.png", alt: "Ganci Shaker"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_shaker.png", alt: "Ganci Shaker Kira Kira Michi"})}
                 >
                   <Image 
                     src="/toppick/ganci_shaker.png"
-                    alt="Ganci Shaker"
+                    alt="Ganci Shaker Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 25vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -227,8 +238,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Produk unggulan dengan kualitas terbaik.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Ganci%20Shaker" 
-                  target="_blank" 
+                  href={whatsappHref('Ganci Shaker')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-green-500 text-white font-bold hover:bg-green-600 transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -245,12 +257,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_hanging_charm.png", alt: "Ganci Hanging Charm"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_hanging_charm.png", alt: "Ganci Hanging Charm Kira Kira Michi"})}
                 >
                   <Image 
                     src="/toppick/ganci_hanging_charm.png"
-                    alt="Ganci Hanging Charm"
+                    alt="Ganci Hanging Charm Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 25vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -263,8 +276,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Pilihan premium dengan kualitas terbaik.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Ganci%20Hanging%20Charm" 
-                  target="_blank" 
+                  href={whatsappHref('Ganci Hanging Charm')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-green-500 text-white font-bold hover:bg-green-600 transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -281,12 +295,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_bantal.png", alt: "Ganci Bantal"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_bantal.png", alt: "Ganci Bantal Kira Kira Michi"})}
                 >
                   <Image 
                     src="/toppick/ganci_bantal.png"
-                    alt="Ganci Bantal"
+                    alt="Ganci Bantal Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 25vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -299,8 +314,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Standar kualitas terbaik dari pilihan unggulan.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Ganci%20Bantal" 
-                  target="_blank" 
+                  href={whatsappHref('Ganci Bantal')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-green-500 text-white font-bold hover:bg-green-600 transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -317,12 +333,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_rotary.png", alt: "Ganci Rotary"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_rotary.png", alt: "Ganci Rotary Kira Kira Michi"})}
                 >
                   <Image 
                     src="/toppick/ganci_rotary.png"
-                    alt="Ganci Rotary"
+                    alt="Ganci Rotary Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 25vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -335,8 +352,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Inovasi terkini dengan kualitas maksimal.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Ganci%20Rotary" 
-                  target="_blank" 
+                  href={whatsappHref('Ganci Rotary')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-green-500 text-white font-bold hover:bg-green-600 transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -370,12 +388,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/populardemand/one_piece.png", alt: "Ganci One Piece Logo"})}
+                  onClick={() => setSelectedImage({src: "/populardemand/one_piece.png", alt: "Ganci One Piece Logo Kira Kira Michi"})}
                 >
                   <Image 
                     src="/populardemand/one_piece.png"
-                    alt="Ganci One Piece Logo"
+                    alt="Ganci One Piece Logo Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -388,8 +407,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Ganci eksklusif bertema One Piece dengan logo karakter favorit.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Ganci%20One%20Piece%20Logo" 
-                  target="_blank" 
+                  href={whatsappHref('Ganci One Piece Logo')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-black text-white font-bold hover:bg-gray-800 transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -406,12 +426,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/populardemand/dragon_ball.png", alt: "Pouch Dragon Ball Radar (Leather Version)"})}
+                  onClick={() => setSelectedImage({src: "/populardemand/dragon_ball.png", alt: "Pouch Dragon Ball Radar Leather Version Kira Kira Michi"})}
                 >
                   <Image 
                     src="/populardemand/dragon_ball.png"
-                    alt="Pouch Dragon Ball Radar (Leather Version)"
+                    alt="Pouch Dragon Ball Radar Leather Version Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -424,8 +445,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Pouch premium kulit dengan desain radar Dragon Ball yang ikonik.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Pouch%20Dragon%20Ball%20Radar%20(Leather%20Version)" 
-                  target="_blank" 
+                  href={whatsappHref('Pouch Dragon Ball Radar (Leather Version)')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-black text-white font-bold hover:bg-gray-800 transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -442,12 +464,13 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/populardemand/kawaii_anya.png", alt: "Ganci Kawaii Anya"})}
+                  onClick={() => setSelectedImage({src: "/populardemand/kawaii_anya.png", alt: "Ganci Kawaii Anya Kira Kira Michi"})}
                 >
                   <Image 
                     src="/populardemand/kawaii_anya.png"
-                    alt="Ganci Kawaii Anya"
+                    alt="Ganci Kawaii Anya Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw"
                     className="object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
@@ -460,8 +483,9 @@ const Menu = () => {
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Ganci lucu bertema karakter Anya dengan desain kawaii yang menggemaskan.</p>
                 <a 
-                  href="https://wa.me/6289529974959?text=Hai%20kak%2C%20saya%20ingin%20memesan%20Ganci%20Kawaii%20Anya" 
-                  target="_blank" 
+                  href={whatsappHref('Ganci Kawaii Anya')}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-xl bg-black text-white font-bold hover:bg-gray-800 transition-colors text-sm flex items-center justify-center gap-2 mt-auto"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.008-.57-.008-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
@@ -497,6 +521,7 @@ const Menu = () => {
               src={selectedImage.src}
               alt={selectedImage.alt}
               fill
+              quality={85}
               className="object-contain"
               sizes="100vw"
             />

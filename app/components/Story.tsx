@@ -30,8 +30,9 @@ const Story = () => {
                 <div className="relative w-full rounded-2xl shadow-lg overflow-hidden aspect-[4/5]">
                   <Image 
                     src="/kirastory1.PNG"
-                    alt="Kira Kira Michi Story 1"
+                    alt="Cerita proses kreatif Kira Kira Michi dalam membuat merchandise custom"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw"
                     className="object-cover"
                   />
@@ -44,8 +45,9 @@ const Story = () => {
                 <div className="relative w-full rounded-2xl shadow-lg overflow-hidden aspect-[4/5]">
                   <Image 
                     src="/kirastory2.PNG"
-                    alt="Kira Kira Michi Story 2"
+                    alt="Dokumentasi produk kreatif dan handmade Kira Kira Michi"
                     fill
+                    quality={75}
                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw"
                     className="object-cover"
                   />

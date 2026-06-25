@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Process = () => {
   return (
     <section className="py-20 bg-white" id="process">
@@ -15,7 +13,11 @@ const Process = () => {
             <div className="w-16 h-16 rounded-full bg-kkm-red/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
               <img 
                 src="/process/merchandise.svg"
-                alt="Choose Merchandise Icon"
+                alt="Ikon pilih merchandise custom Kira Kira Michi"
+                width="800"
+                height="800"
+                loading="lazy"
+                decoding="async"
                 className="w-8 h-8 text-kkm-red"
               />
             </div>
@@ -28,7 +30,11 @@ const Process = () => {
             <div className="w-16 h-16 rounded-full bg-kkm-yellow/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
               <img 
                 src="/process/payment.svg"
-                alt="Payment Icon"
+                alt="Ikon pembayaran pesanan Kira Kira Michi"
+                width="800"
+                height="800"
+                loading="lazy"
+                decoding="async"
                 className="w-8 h-8 text-kkm-yellow"
               />
             </div>
@@ -41,7 +47,11 @@ const Process = () => {
             <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="600">
               <img 
                 src="/process/delivery.svg"
-                alt="Delivery Icon"
+                alt="Ikon pengiriman merchandise custom Kira Kira Michi"
+                width="800"
+                height="800"
+                loading="lazy"
+                decoding="async"
                 className="w-8 h-8 text-green-500"
               />
             </div>
@@ -54,7 +64,11 @@ const Process = () => {
             <div className="w-16 h-16 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800">
               <img 
                 src="/process/review.svg"
-                alt="Review Icon"
+                alt="Ikon ulasan pelanggan Kira Kira Michi"
+                width="800"
+                height="800"
+                loading="lazy"
+                decoding="async"
                 className="w-8 h-8 text-kkm-dark"
               />
             </div>
