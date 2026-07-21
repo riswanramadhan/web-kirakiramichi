@@ -58,14 +58,14 @@ const Menu = () => {
         {/* Flash Pre-Order Section - Highest Priority */}
         <div id="flash-preorder" className="mb-16" data-aos="fade-up" data-aos-duration="800">
           <div className="flex items-center gap-3 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-kkm-red to-kkm-yellow flex items-center justify-center">
+            <div className="w-12 h-12 aspect-square flex-shrink-0 rounded-full bg-gradient-to-br from-kkm-red to-kkm-yellow flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
               </svg>
             </div>
             <div>
               <h3 className="text-2xl font-bold text-text-main">Flash Pre-Order</h3>
-              <p className="text-text-muted">Pengerjaan dalam 2–5 Hari • Disesuaikan sepenuhnya dengan preferensimu</p>
+              <p className="text-text-muted">Pengerjaan dalam 2-5 Hari • Disesuaikan sepenuhnya dengan preferensimu</p>
             </div>
           </div>
           
@@ -77,7 +77,7 @@ const Menu = () => {
                   Custom
                 </div>
                 <div className="absolute top-4 right-4 z-10 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-kkm-red shadow-sm">
-                  2-5 Weeks
+                  2-5 Days
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
@@ -96,7 +96,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Custom Produk Kayu</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 15k</span>
+                  <span className="text-kkm-red font-bold">Mulai dari Rp 15.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Desain custom untuk produk kayu seperti gantungan kunci, pajangan, dan aksesori lainnya.</p>
                 <a 
@@ -119,7 +119,7 @@ const Menu = () => {
                   Custom
                 </div>
                 <div className="absolute top-4 right-4 z-10 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-kkm-red shadow-sm">
-                  2-5 Weeks
+                  2-5 Days
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
@@ -138,7 +138,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Custom Produk Kain, Kulit Sintetis & Eva Sponge</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 15k</span>
+                  <span className="text-kkm-red font-bold">Mulai dari Rp 15.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Produk custom dari bahan kain, kulit sintetis, dan eva sponge seperti pouch, ID card, dan lainnya.</p>
                 <a 
@@ -160,7 +160,7 @@ const Menu = () => {
                   Custom
                 </div>
                 <div className="absolute top-4 right-4 z-10 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-kkm-red shadow-sm">
-                  2-5 Weeks
+                  2-5 Days
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
@@ -179,7 +179,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Custom Produk Akrilik</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 15k</span>
+                  <span className="text-kkm-red font-bold">Mulai dari Rp 15.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Aneka produk custom dari akrilik seperti pin, gantungan kunci, dan lainnya.</p>
                 <a 
@@ -199,7 +199,7 @@ const Menu = () => {
         {/* Top Picks Section */}
         <div className="mb-16" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
           <div className="flex items-center gap-3 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="700">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-kkm-dark to-kkm-red flex items-center justify-center">
+            <div className="w-12 h-12 aspect-square flex-shrink-0 rounded-full bg-gradient-to-br from-kkm-dark to-kkm-red flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
                 <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
               </svg>
@@ -234,7 +234,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Ganci Shaker</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 55k</span>
+                  <span className="text-kkm-red font-bold">Mulai dari Rp 55.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Produk unggulan dengan kualitas terbaik.</p>
                 <a 
@@ -272,7 +272,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Ganci Hanging Charm</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 45k</span>
+                  <span className="text-kkm-red font-bold">Mulai dari Rp 45.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Pilihan premium dengan kualitas terbaik.</p>
                 <a 
@@ -310,7 +310,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Ganci Bantal</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 35k</span>
+                  <span className="text-kkm-red font-bold">Mulai dari Rp 35.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Standar kualitas terbaik dari pilihan unggulan.</p>
                 <a 
@@ -348,7 +348,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Ganci Rotary</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 40k</span>
+                  <span className="text-kkm-red font-bold">Mulai dari Rp 40.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Inovasi terkini dengan kualitas maksimal.</p>
                 <a 
@@ -368,7 +368,7 @@ const Menu = () => {
         {/* Back by Popular Demand Section */}
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
           <div className="flex items-center gap-3 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-kkm-red to-kkm-dark flex items-center justify-center">
+            <div className="w-12 h-12 aspect-square flex-shrink-0 rounded-full bg-gradient-to-br from-kkm-red to-kkm-dark flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-6 h-6">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
               </svg>
@@ -403,7 +403,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Ganci One Piece Logo</h4>
-                  <span className="text-kkm-red font-bold">Rp 35k</span>
+                  <span className="text-kkm-red font-bold">Rp 35.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Ganci eksklusif bertema One Piece dengan logo karakter favorit.</p>
                 <a 
@@ -441,7 +441,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Pouch Dragon Ball Radar (Leather Version)</h4>
-                  <span className="text-kkm-red font-bold">Rp 250k</span>
+                  <span className="text-kkm-red font-bold">Rp 250.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Pouch premium kulit dengan desain radar Dragon Ball yang ikonik.</p>
                 <a 
@@ -479,7 +479,7 @@ const Menu = () => {
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="font-bold text-text-main">Ganci Kawaii Anya</h4>
-                  <span className="text-kkm-red font-bold">Rp 35k</span>
+                  <span className="text-kkm-red font-bold">Rp 35.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Ganci lucu bertema karakter Anya dengan desain kawaii yang menggemaskan.</p>
                 <a 

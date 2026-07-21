@@ -7,7 +7,7 @@ const Features = () => {
           
           {/* Ide Kreatif */}
           <div className="flex flex-col items-center text-center p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
-            <div className="w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+            <div className="w-14 h-14 aspect-square flex-shrink-0 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
@@ -26,7 +26,7 @@ const Features = () => {
 
           {/* Kerajinan Tangan */}
           <div className="flex flex-col items-center text-center p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <div className="w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+            <div className="w-14 h-14 aspect-square flex-shrink-0 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" id="Scissors--Streamline-Heroicons" height="16" width="16" className="w-6 h-6 text-kkm-red">
   <desc>
     Scissors Streamline Icon: https://streamlinehq.com
@@ -41,7 +41,7 @@ const Features = () => {
 
           {/* Kualitas Terjamin */}
           <div className="flex flex-col items-center text-center p-6 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-            <div className="w-14 h-14 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">
+            <div className="w-14 h-14 aspect-square flex-shrink-0 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 

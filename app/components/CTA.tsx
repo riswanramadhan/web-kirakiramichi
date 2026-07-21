@@ -47,14 +47,14 @@ const CTA = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            <a 
+            <a
               href={whatsappHref}
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto px-8 py-4 bg-kkm-red text-white font-bold rounded-xl shadow-lg hover:bg-kkm-red/90 hover:scale-110 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 group/btn"
+              className="w-full sm:w-auto px-8 py-4 bg-white font-bold rounded-xl shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 group/btn"
             >
-              <span>Pesan Sekarang</span>
-              <svg className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <span className="bg-gradient-to-r from-kkm-dark via-kkm-red to-kkm-yellow bg-clip-text text-transparent">Pesan Sekarang</span>
+              <svg className="w-5 h-5 text-kkm-red group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </a>

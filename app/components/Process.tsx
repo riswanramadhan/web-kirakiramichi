@@ -10,7 +10,7 @@ const Process = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Choose Merchandise */}
           <div className="flex flex-col items-center text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="0">
-            <div className="w-16 h-16 rounded-full bg-kkm-red/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+            <div className="w-16 h-16 aspect-square flex-shrink-0 rounded-full bg-kkm-red/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
               <img 
                 src="/process/merchandise.svg"
                 alt="Ikon pilih merchandise custom Kira Kira Michi"
@@ -27,7 +27,7 @@ const Process = () => {
 
           {/* Payment */}
           <div className="flex flex-col items-center text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-            <div className="w-16 h-16 rounded-full bg-kkm-yellow/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+            <div className="w-16 h-16 aspect-square flex-shrink-0 rounded-full bg-kkm-yellow/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
               <img 
                 src="/process/payment.svg"
                 alt="Ikon pembayaran pesanan Kira Kira Michi"
@@ -44,7 +44,7 @@ const Process = () => {
 
           {/* Delivery */}
           <div className="flex flex-col items-center text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-            <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="600">
+            <div className="w-16 h-16 aspect-square flex-shrink-0 rounded-full bg-green-500/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="600">
               <img 
                 src="/process/delivery.svg"
                 alt="Ikon pengiriman merchandise custom Kira Kira Michi"
@@ -61,7 +61,7 @@ const Process = () => {
 
           {/* Review */}
           <div className="flex flex-col items-center text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
-            <div className="w-16 h-16 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800">
+            <div className="w-16 h-16 aspect-square flex-shrink-0 rounded-full bg-kkm-dark/10 flex items-center justify-center mb-4 transform hover:scale-110 transition-transform duration-300" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800">
               <img 
                 src="/process/review.svg"
                 alt="Ikon ulasan pelanggan Kira Kira Michi"

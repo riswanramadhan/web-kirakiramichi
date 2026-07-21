@@ -33,35 +33,35 @@ const Navbar = () => {
     }
   }, [hasMounted]);
 
+  // Disable body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMobileMenuOpen]);
+
   return (
     <nav className="w-full bg-white border-b border-gray-100 sticky top-0 z-[100]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 md:h-24">
           
-          {/* LEFT: LOGO ONLY - Remove Brand Name to Reduce Clutter */}
-          <Link href="/" className="flex items-center gap-3 group" aria-label="Beranda Kira Kira Michi">
-            <div className="relative w-12 h-12 md:w-16 md:h-16 flex-shrink-0">
-              {/* Gunakan file logo KKM Logo_081910.png yang kamu punya */}
-              <Image 
-                src="/kkmlogo.png" 
+          {/* LEFT: LOGO ONLY */}
+          <Link href="/" className="flex items-center group" aria-label="Beranda Kira Kira Michi">
+            <div className="relative w-16 h-16 md:w-20 md:h-20 flex-shrink-0">
+              <Image
+                src="/kkmlogo.png"
                 alt="Logo Kira Kira Michi custom merchandise"
                 fill
-                sizes="(max-width: 768px) 48px, 64px"
+                sizes="(max-width: 768px) 64px, 80px"
                 className="object-contain group-hover:scale-105 transition-transform duration-300"
               />
             </div>
-          {hasMounted && isLargeScreen && (
-            <div className="flex flex-col ml-2">
-              <div className="flex items-end gap-1">
-                <span className="text-base md:text-lg font-[900] tracking-tight text-kkm-dark leading-tight uppercase">
-                  Kira Kira
-                </span>
-                <span className="text-base md:text-lg font-[900] tracking-tight text-kkm-yellow leading-tight uppercase">
-                  Michi
-                </span>
-              </div>
-            </div>
-          )}
         </Link>
         
         {/* CENTER: NAVIGATION LINKS (Model Biasa) */}
@@ -134,13 +134,49 @@ const Navbar = () => {
         </div>
       </div>
       
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu - Full Screen Overlay */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden">
-          <div className="fixed inset-0 bg-black/50 z-[90]" onClick={() => setIsMobileMenuOpen(false)} />
-          <div className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 shadow-lg z-[95]">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
-              <div className="flex flex-col space-y-4">
+        <>
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 bg-black/50 z-[90] lg:hidden"
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+
+          {/* Full Screen Menu - Slide from Right */}
+          <div
+            className={`fixed top-0 right-0 bottom-0 w-full bg-white z-[95] lg:hidden transform transition-transform duration-300 ${
+              isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+            }`}
+            style={{ overflowY: 'auto' }}
+          >
+            <div className="flex flex-col h-full items-center justify-between py-8 px-6">
+
+              {/* Logo at Top */}
+              <div className="flex flex-col items-center gap-3 mb-8">
+                <div className="relative w-20 h-20">
+                  <Image
+                    src="/kkmlogo.png"
+                    alt="Logo Kira Kira Michi"
+                    fill
+                    sizes="80px"
+                    className="object-contain"
+                  />
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="flex items-center gap-1">
+                    <span className="text-xl font-[900] tracking-tight text-kkm-dark leading-tight uppercase">
+                      Kira Kira
+                    </span>
+                    <span className="text-xl font-[900] tracking-tight text-kkm-yellow leading-tight uppercase">
+                      Michi
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Menu Items - Centered */}
+              <div className="flex flex-col items-center space-y-6 flex-grow justify-center">
                 {[
                   { name: 'Beranda', href: '#hero' },
                   { name: 'Tentang', href: '#story' },
@@ -159,25 +195,40 @@ const Navbar = () => {
                         }
                         setIsMobileMenuOpen(false);
                       }}
-                      className="text-[14px] font-extrabold text-text-muted hover:text-kkm-red transition-all duration-300 uppercase tracking-widest text-left w-full py-2"
+                      className="text-lg font-extrabold text-text-muted hover:text-kkm-red transition-all duration-300 uppercase tracking-widest text-center"
                     >
                       {item.name}
                     </button>
                   ) : (
-                    <Link 
+                    <Link
                       key={item.name}
-                      href={item.href} 
+                      href={item.href}
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="text-[14px] font-extrabold text-text-muted hover:text-kkm-red transition-all duration-300 uppercase tracking-widest block py-2"
+                      className="text-lg font-extrabold text-text-muted hover:text-kkm-red transition-all duration-300 uppercase tracking-widest text-center"
                     >
                       {item.name}
                     </Link>
                   )
                 ))}
               </div>
+
+              {/* Footer - Powered by DekatLokal */}
+              <div className="text-center mt-8">
+                <p className="text-sm text-text-muted">
+                  Powered by{' '}
+                  <a
+                    href="https://www.dekatlokal.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-kkm-red hover:text-kkm-dark transition-colors"
+                  >
+                    DekatLokal
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        </>
       )}
     </nav>
   );
