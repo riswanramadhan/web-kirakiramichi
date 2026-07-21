@@ -145,33 +145,34 @@ const Navbar = () => {
 
           {/* Full Screen Menu - Slide from Right */}
           <div
-            className={`fixed top-0 right-0 bottom-0 w-full bg-white z-[95] lg:hidden transform transition-transform duration-300 ${
+            className={`fixed top-0 right-0 bottom-0 w-full bg-white z-[95] lg:hidden transform transition-transform duration-300 ease-in-out ${
               isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
             }`}
             style={{ overflowY: 'auto' }}
           >
+            {/* Close Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="absolute top-6 right-6 p-2 text-kkm-dark hover:text-kkm-red transition-colors z-10"
+              aria-label="Tutup menu"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
             <div className="flex flex-col h-full items-center justify-between py-8 px-6">
 
-              {/* Logo at Top */}
-              <div className="flex flex-col items-center gap-3 mb-8">
-                <div className="relative w-20 h-20">
+              {/* Logo Only at Top */}
+              <div className="flex flex-col items-center gap-3 mb-8 mt-8">
+                <div className="relative w-24 h-24">
                   <Image
                     src="/kkmlogo.png"
                     alt="Logo Kira Kira Michi"
                     fill
-                    sizes="80px"
+                    sizes="96px"
                     className="object-contain"
                   />
-                </div>
-                <div className="flex flex-col items-center">
-                  <div className="flex items-center gap-1">
-                    <span className="text-xl font-[900] tracking-tight text-kkm-dark leading-tight uppercase">
-                      Kira Kira
-                    </span>
-                    <span className="text-xl font-[900] tracking-tight text-kkm-yellow leading-tight uppercase">
-                      Michi
-                    </span>
-                  </div>
                 </div>
               </div>
 

@@ -94,9 +94,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Custom Produk Kayu</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 15.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Custom Produk Kayu</h4>
+                  <span className="text-kkm-red font-bold text-sm">Mulai dari Rp 15.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Desain custom untuk produk kayu seperti gantungan kunci, pajangan, dan aksesori lainnya.</p>
                 <a 
@@ -136,9 +136,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Custom Produk Kain, Kulit Sintetis & Eva Sponge</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 15.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Custom Produk Kain, Kulit Sintetis & Eva Sponge</h4>
+                  <span className="text-kkm-red font-bold text-sm">Mulai dari Rp 15.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Produk custom dari bahan kain, kulit sintetis, dan eva sponge seperti pouch, ID card, dan lainnya.</p>
                 <a 
@@ -177,9 +177,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Custom Produk Akrilik</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 15.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Custom Produk Akrilik</h4>
+                  <span className="text-kkm-red font-bold text-sm">Mulai dari Rp 15.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Aneka produk custom dari akrilik seperti pin, gantungan kunci, dan lainnya.</p>
                 <a 
@@ -232,9 +232,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Ganci Shaker</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 55.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Ganci Shaker</h4>
+                  <span className="text-kkm-red font-bold text-sm">Mulai dari Rp 55.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Produk unggulan dengan kualitas terbaik.</p>
                 <a 
@@ -270,9 +270,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Ganci Hanging Charm</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 45.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Ganci Hanging Charm</h4>
+                  <span className="text-kkm-red font-bold text-sm">Mulai dari Rp 45.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Pilihan premium dengan kualitas terbaik.</p>
                 <a 
@@ -308,9 +308,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Ganci Bantal</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 35.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Ganci Bantal</h4>
+                  <span className="text-kkm-red font-bold text-sm">Mulai dari Rp 35.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Standar kualitas terbaik dari pilihan unggulan.</p>
                 <a 
@@ -346,9 +346,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Ganci Rotary</h4>
-                  <span className="text-kkm-red font-bold">Mulai dari Rp 40.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Ganci Rotary</h4>
+                  <span className="text-kkm-red font-bold text-sm">Mulai dari Rp 40.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Inovasi terkini dengan kualitas maksimal.</p>
                 <a 
@@ -401,9 +401,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Ganci One Piece Logo</h4>
-                  <span className="text-kkm-red font-bold">Rp 35.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Ganci One Piece Logo</h4>
+                  <span className="text-kkm-red font-bold text-sm">Rp 35.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Ganci eksklusif bertema One Piece dengan logo karakter favorit.</p>
                 <a 
@@ -439,9 +439,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Pouch Dragon Ball Radar (Leather Version)</h4>
-                  <span className="text-kkm-red font-bold">Rp 250.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Pouch Dragon Ball Radar (Leather Version)</h4>
+                  <span className="text-kkm-red font-bold text-sm">Rp 250.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Pouch premium kulit dengan desain radar Dragon Ball yang ikonik.</p>
                 <a 
@@ -477,9 +477,9 @@ const Menu = () => {
                 </div>
               </div>
               <div className="p-5 flex-grow flex flex-col">
-                <div className="flex justify-between items-start mb-3">
-                  <h4 className="font-bold text-text-main">Ganci Kawaii Anya</h4>
-                  <span className="text-kkm-red font-bold">Rp 35.000</span>
+                <div className="mb-3">
+                  <h4 className="font-bold text-text-main mb-2">Ganci Kawaii Anya</h4>
+                  <span className="text-kkm-red font-bold text-sm">Rp 35.000</span>
                 </div>
                 <p className="text-text-muted text-sm mb-4 line-clamp-2 flex-grow">Ganci lucu bertema karakter Anya dengan desain kawaii yang menggemaskan.</p>
                 <a 
