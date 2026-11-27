@@ -81,10 +81,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/preorder/kayu.png", alt: "Custom Produk Kayu Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/preorder/kayu-large.webp", alt: "Custom Produk Kayu Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/preorder/kayu.png"
+                    src="/preorder/kayu.webp"
                     alt="Custom Produk Kayu Kira Kira Michi"
                     fill
                     quality={75}
@@ -123,10 +123,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/preorder/kain.png", alt: "Custom Produk Kain Kulit Sintetis dan Eva Sponge Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/preorder/kain-large.webp", alt: "Custom Produk Kain Kulit Sintetis dan Eva Sponge Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/preorder/kain.png"
+                    src="/preorder/kain.webp"
                     alt="Custom Produk Kain Kulit Sintetis dan Eva Sponge Kira Kira Michi"
                     fill
                     quality={75}
@@ -164,10 +164,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/preorder/akrilik.png", alt: "Custom Produk Akrilik Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/preorder/akrilik-large.webp", alt: "Custom Produk Akrilik Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/preorder/akrilik.png"
+                    src="/preorder/akrilik.webp"
                     alt="Custom Produk Akrilik Kira Kira Michi"
                     fill
                     quality={75}
@@ -219,10 +219,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_shaker.png", alt: "Ganci Shaker Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_shaker-large.webp", alt: "Ganci Shaker Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/toppick/ganci_shaker.png"
+                    src="/toppick/ganci_shaker.webp"
                     alt="Ganci Shaker Kira Kira Michi"
                     fill
                     quality={75}
@@ -257,10 +257,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_hanging_charm.png", alt: "Ganci Hanging Charm Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_hanging_charm-large.webp", alt: "Ganci Hanging Charm Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/toppick/ganci_hanging_charm.png"
+                    src="/toppick/ganci_hanging_charm.webp"
                     alt="Ganci Hanging Charm Kira Kira Michi"
                     fill
                     quality={75}
@@ -295,10 +295,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_bantal.png", alt: "Ganci Bantal Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_bantal-large.webp", alt: "Ganci Bantal Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/toppick/ganci_bantal.png"
+                    src="/toppick/ganci_bantal.webp"
                     alt="Ganci Bantal Kira Kira Michi"
                     fill
                     quality={75}
@@ -333,10 +333,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/toppick/ganci_rotary.png", alt: "Ganci Rotary Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/toppick/ganci_rotary-large.webp", alt: "Ganci Rotary Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/toppick/ganci_rotary.png"
+                    src="/toppick/ganci_rotary.webp"
                     alt="Ganci Rotary Kira Kira Michi"
                     fill
                     quality={75}
@@ -388,10 +388,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/populardemand/one_piece.png", alt: "Ganci One Piece Logo Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/populardemand/one_piece-large.webp", alt: "Ganci One Piece Logo Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/populardemand/one_piece.png"
+                    src="/populardemand/one_piece.webp"
                     alt="Ganci One Piece Logo Kira Kira Michi"
                     fill
                     quality={75}
@@ -426,10 +426,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/populardemand/dragon_ball.png", alt: "Pouch Dragon Ball Radar Leather Version Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/populardemand/dragon_ball-large.webp", alt: "Pouch Dragon Ball Radar Leather Version Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/populardemand/dragon_ball.png"
+                    src="/populardemand/dragon_ball.webp"
                     alt="Pouch Dragon Ball Radar Leather Version Kira Kira Michi"
                     fill
                     quality={75}
@@ -464,10 +464,10 @@ const Menu = () => {
                 </div>
                 <div 
                   className="relative w-full h-full cursor-pointer"
-                  onClick={() => setSelectedImage({src: "/populardemand/kawaii_anya.png", alt: "Ganci Kawaii Anya Kira Kira Michi"})}
+                  onClick={() => setSelectedImage({src: "/populardemand/kawaii_anya-large.webp", alt: "Ganci Kawaii Anya Kira Kira Michi"})}
                 >
                   <Image 
-                    src="/populardemand/kawaii_anya.png"
+                    src="/populardemand/kawaii_anya.webp"
                     alt="Ganci Kawaii Anya Kira Kira Michi"
                     fill
                     quality={75}

@@ -55,7 +55,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center group" aria-label="Beranda Kira Kira Michi">
             <div className="relative w-16 h-16 md:w-20 md:h-20 flex-shrink-0">
               <Image
-                src="/kkmlogo.png"
+                src="/kkmlogo.webp"
                 alt="Logo Kira Kira Michi custom merchandise"
                 fill
                 sizes="(max-width: 768px) 64px, 80px"
@@ -167,7 +167,7 @@ const Navbar = () => {
               <div className="flex flex-col items-center gap-3 mb-8 mt-8">
                 <div className="relative w-24 h-24">
                   <Image
-                    src="/kkmlogo.png"
+                    src="/kkmlogo.webp"
                     alt="Logo Kira Kira Michi"
                     fill
                     sizes="96px"

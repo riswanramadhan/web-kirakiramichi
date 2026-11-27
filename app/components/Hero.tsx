@@ -69,7 +69,7 @@ const Hero = () => {
 
           <div className="relative h-[400px] lg:h-[500px] w-full rounded-[3rem] shadow-2xl overflow-hidden bg-white border-4 border-kkm-dark">
             <Image 
-              src="/kkmhero.jpg" 
+              src="/kkmhero.webp" 
               alt="Kira Kira Michi custom merchandise dan pre-order produk kreatif premium"
               fill
               priority

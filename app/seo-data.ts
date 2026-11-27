@@ -42,7 +42,7 @@ export const products = [
     name: 'Custom Produk Kayu',
     description:
       'Desain custom untuk produk kayu seperti gantungan kunci, pajangan, dan aksesori lainnya.',
-    image: '/preorder/kayu.png',
+    image: '/preorder/kayu-large.webp',
     price: 15000,
     priceLabel: 'Mulai dari Rp 15k',
     isStartingPrice: true,
@@ -52,7 +52,7 @@ export const products = [
     name: 'Custom Produk Kain, Kulit Sintetis & Eva Sponge',
     description:
       'Produk custom dari bahan kain, kulit sintetis, dan eva sponge seperti pouch, ID card, dan lainnya.',
-    image: '/preorder/kain.png',
+    image: '/preorder/kain-large.webp',
     price: 15000,
     priceLabel: 'Mulai dari Rp 15k',
     isStartingPrice: true,
@@ -62,7 +62,7 @@ export const products = [
     name: 'Custom Produk Akrilik',
     description:
       'Aneka produk custom dari akrilik seperti pin, gantungan kunci, dan lainnya.',
-    image: '/preorder/akrilik.png',
+    image: '/preorder/akrilik-large.webp',
     price: 15000,
     priceLabel: 'Mulai dari Rp 15k',
     isStartingPrice: true,
@@ -72,7 +72,7 @@ export const products = [
     name: 'Ganci Shaker',
     description:
       'Ganci shaker Kira Kira Michi untuk merchandise custom dan pre-order.',
-    image: '/toppick/ganci_shaker.png',
+    image: '/toppick/ganci_shaker-large.webp',
     price: 55000,
     priceLabel: 'Mulai dari Rp 55k',
     isStartingPrice: true,
@@ -82,7 +82,7 @@ export const products = [
     name: 'Ganci Hanging Charm',
     description:
       'Ganci hanging charm Kira Kira Michi untuk merchandise custom dan pre-order.',
-    image: '/toppick/ganci_hanging_charm.png',
+    image: '/toppick/ganci_hanging_charm-large.webp',
     price: 45000,
     priceLabel: 'Mulai dari Rp 45k',
     isStartingPrice: true,
@@ -92,7 +92,7 @@ export const products = [
     name: 'Ganci Bantal',
     description:
       'Ganci bantal Kira Kira Michi untuk merchandise custom dan pre-order.',
-    image: '/toppick/ganci_bantal.png',
+    image: '/toppick/ganci_bantal-large.webp',
     price: 35000,
     priceLabel: 'Mulai dari Rp 35k',
     isStartingPrice: true,
@@ -102,7 +102,7 @@ export const products = [
     name: 'Ganci Rotary',
     description:
       'Ganci rotary Kira Kira Michi untuk merchandise custom dan pre-order.',
-    image: '/toppick/ganci_rotary.png',
+    image: '/toppick/ganci_rotary-large.webp',
     price: 40000,
     priceLabel: 'Mulai dari Rp 40k',
     isStartingPrice: true,
@@ -112,7 +112,7 @@ export const products = [
     name: 'Ganci One Piece Logo',
     description:
       'Ganci bertema One Piece dengan logo karakter favorit.',
-    image: '/populardemand/one_piece.png',
+    image: '/populardemand/one_piece-large.webp',
     price: 35000,
     priceLabel: 'Rp 35k',
     isStartingPrice: false,
@@ -122,7 +122,7 @@ export const products = [
     name: 'Pouch Dragon Ball Radar (Leather Version)',
     description:
       'Pouch leather version bertema Dragon Ball Radar dengan desain ikonik.',
-    image: '/populardemand/dragon_ball.png',
+    image: '/populardemand/dragon_ball-large.webp',
     price: 250000,
     priceLabel: 'Rp 250k',
     isStartingPrice: false,
@@ -132,7 +132,7 @@ export const products = [
     name: 'Ganci Kawaii Anya',
     description:
       'Ganci bertema karakter Anya dengan desain kawaii.',
-    image: '/populardemand/kawaii_anya.png',
+    image: '/populardemand/kawaii_anya-large.webp',
     price: 35000,
     priceLabel: 'Rp 35k',
     isStartingPrice: false,
