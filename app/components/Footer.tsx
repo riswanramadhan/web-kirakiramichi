@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="flex flex-col gap-4" data-aos="fade-up" data-aos-duration="1000">
             <div className="flex items-center justify-start">
-              <img src="/kkmlogo.png" alt="Logo Kira Kira Michi custom merchandise premium" width="2364" height="871" loading="lazy" decoding="async" className="h-14 w-auto drop-shadow-lg hover:drop-shadow-xl transition-shadow duration-300" />
+              <img src="/kkmlogo.webp" alt="Logo Kira Kira Michi custom merchandise premium" width="480" height="177" loading="lazy" decoding="async" className="h-14 w-auto drop-shadow-lg hover:drop-shadow-xl transition-shadow duration-300" />
             </div>
             <p className="text-kkm-red font-black text-lg leading-tight tracking-wider uppercase">
               Things I've Always Wished to Have
@@ -65,17 +65,17 @@ const Footer = () => {
             <div className="flex flex-col items-start gap-4">
               {/* Sponsor 1 */}
               <div className="flex items-start justify-start w-32 h-16">
-                <img src="/dekat-lokal.png" alt="Logo DekatLokal partner digital Kira Kira Michi" width="2771" height="1124" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
+                <img src="/dekat-lokal.webp" alt="Logo DekatLokal partner digital Kira Kira Michi" width="600" height="243" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
               </div>
 
               {/* Sponsor 2 */}
               <div className="flex items-start justify-start w-32 h-16">
-                <img src="/rumah-bumn.png" alt="Logo Rumah BUMN Makassar pendukung Kira Kira Michi" width="2433" height="1472" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
+                <img src="/rumah-bumn.webp" alt="Logo Rumah BUMN Makassar pendukung Kira Kira Michi" width="600" height="363" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
               </div>
 
               {/* Sponsor 3 */}
               <div className="flex items-start justify-start w-32 h-16">
-                <img src="/bank-bri.png" alt="Logo Bank BRI pendukung Kira Kira Michi" width="2925" height="693" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
+                <img src="/bank-bri.webp" alt="Logo Bank BRI pendukung Kira Kira Michi" width="600" height="142" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
               </div>
             </div>
           </div>

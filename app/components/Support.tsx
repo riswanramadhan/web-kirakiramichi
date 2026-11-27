@@ -19,17 +19,17 @@ const Support = () => {
         <div className="mt-16 flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-90">
           {/* Sponsor 1 */}
           <div className="flex items-center justify-center w-48 h-24" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="200">
-            <img src="/dekat-lokal.png" alt="Logo DekatLokal partner digital Kira Kira Michi" width="2771" height="1124" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
+            <img src="/dekat-lokal.webp" alt="Logo DekatLokal partner digital Kira Kira Michi" width="600" height="243" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
           </div>
 
           {/* Sponsor 2 */}
           <div className="flex items-center justify-center w-48 h-24" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="400">
-            <img src="/rumah-bumn.png" alt="Logo Rumah BUMN Makassar pendukung Kira Kira Michi" width="2433" height="1472" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
+            <img src="/rumah-bumn.webp" alt="Logo Rumah BUMN Makassar pendukung Kira Kira Michi" width="600" height="363" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
           </div>
 
           {/* Sponsor 3 */}
           <div className="flex items-center justify-center w-48 h-24" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="600">
-            <img src="/bank-bri.png" alt="Logo Bank BRI pendukung Kira Kira Michi" width="2925" height="693" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
+            <img src="/bank-bri.webp" alt="Logo Bank BRI pendukung Kira Kira Michi" width="600" height="142" loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
           </div>
         </div>
       </div>

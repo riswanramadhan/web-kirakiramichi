@@ -29,7 +29,7 @@ const Story = () => {
                 <div className="absolute inset-0 bg-kkm-yellow/20 blur-xl rounded-full -z-10"></div>
                 <div className="relative w-full rounded-2xl shadow-lg overflow-hidden aspect-[4/5]">
                   <Image 
-                    src="/kirastory1.PNG"
+                    src="/kirastory1.webp"
                     alt="Cerita proses kreatif Kira Kira Michi dalam membuat merchandise custom"
                     fill
                     quality={75}
@@ -44,7 +44,7 @@ const Story = () => {
                 <div className="absolute inset-0 bg-kkm-yellow/20 blur-xl rounded-full -z-10"></div>
                 <div className="relative w-full rounded-2xl shadow-lg overflow-hidden aspect-[4/5]">
                   <Image 
-                    src="/kirastory2.PNG"
+                    src="/kirastory2.webp"
                     alt="Dokumentasi produk kreatif dan handmade Kira Kira Michi"
                     fill
                     quality={75}
